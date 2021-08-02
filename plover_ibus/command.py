@@ -1,4 +1,4 @@
-from . import KeyboardEmulation
+from .plover import KeyboardEmulation
 
 def keyboard_emulation(engine)->KeyboardEmulation:
 	result=engine._keyboard_emulation
